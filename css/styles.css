@@ -7,7 +7,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
     text-align: center;
-    font-size: larger;
+    font-size: 50px;
     font-weight: bold;
     margin: 50px;
 }
@@ -15,7 +15,6 @@
     padding-top: 5%;
 }
 .body{
-    background-image: url(../images/pizza.jpeg);
     background-repeat: no-repeat;
     float: left;
     overflow-x: hidden;
@@ -47,16 +46,16 @@ h1{
     background-color: darkgray;
 }
 ​
-/* The navigation bar */
+
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 ​
-/* Links inside the navbar */
+
 .navbar a {
   float: left;
   display: block;
@@ -66,13 +65,12 @@ h1{
   text-decoration: none;
 }
 ​
-/* Change background on mouse-over */
+
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 ​
-/* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 30px; 
 }
